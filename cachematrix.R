@@ -1,7 +1,5 @@
-## Put comments here that give an overall description of what your
-## functions do
+# What this functions do is to create a matrix and calculate its inverse, and store it in the cache for future calculations.
 
-# Cousera R Programming Week 3
 # This function creates a special “matrix” object that can cache its inverse.
 makeCacheMatrix <- function(x = matrix()){
   inv <- NULL
